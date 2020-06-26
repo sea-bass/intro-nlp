@@ -1,1 +1,5 @@
 # Folders to ignore
+examples/deep_learning/glove.6B/
+
+# File types to ignore
+*.zip
