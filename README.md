@@ -3,26 +3,49 @@ Educational resources to get started with Natural Language Processing in Python.
 
 By Sebastian Castro, 2020
 
---- 
+
 
 ## Getting Started
 
-IN PROGRESS
+[Install conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) and then create and activate a conda environment
+
+```bash
+conda create --name intro-nlp --file conda-requirements.txt
+conda activate intro-nlp
+```
+
 
 ---
 
-## Modules
 
-IN PROGRESS
+## Examples
 
 ### Rule-Based Processing
-Here we will see basic string processing and syntax parsing using a grammar.
+Basic string processing and syntax parsing using a grammar.
 
-### "Traditional" Statistical Methods
-Here we will see the "old school" of NLP, including bag-of-words representations and classifiers that do not use neural networks such as Naive Bayes and Support Vector Machines (SVM)
+### Traditional Statistical Methods
+The "old school" of NLP, including bag-of-words representations and classifiers that do not use neural networks such as Naive Bayes and Support Vector Machines (SVM)
 
-### Word Embeddings and Recurrent Neural Networks
-Here we will see the first forays into NLP with neural networks, using word embeddings to reduce vocabulary dimensionality and recurrent neural networks with elements like Gated Recurrent Units (GRU) and Long Short-Term Memory (LSTM).
+### Modern Statistical Methods using Deep Learning
+Here we will see how neural networks have revolutionized NLP, using techniques like word embeddings to reduce vocabulary dimensionality and recurrent neural networks with elements like Gated Recurrent Units (GRU) and Long Short-Term Memory (LSTM).
+Finally we will look at the most state-of-the-art deep learning based NLP models like Transformers, which do away with recurrent neural networks and their disadvantages by using attention mechanisms.
 
-### Transformers
-Finally we will look at the most state-of-the-art deep learning based NLP models that do away with recurrent neural networks and take advantage of attention mechanisms.
+
+---
+
+
+## List of Software Tools
+
+### NLP Tools
+* NLTK
+* spaCy
+* Stanza
+
+### Machine Learning Core Tools
+* scikit-learn
+* PyTorch
+* TensorFlow
+
+### NLP Specific Machine Learning Tools
+* AllenNLP
+* huggingface Transformers
