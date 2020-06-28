@@ -1,6 +1,6 @@
 # Folders to ignore
 examples/deep_learning/glove.6B/
-*/.ipynb_checkpoints
+*.ipynb_checkpoints/
 
 # File types to ignore
 *.zip
