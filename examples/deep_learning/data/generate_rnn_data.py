@@ -39,6 +39,7 @@ rooms = list(room_synonyms.keys())
 # Other useful data to have for checking and parsing
 vowels = ["a", "e", "i", "o", "u"]
 
+
 def generate_data(out_file, num_samples, do_print=False):
     """
     Generates synthetic data
@@ -70,8 +71,6 @@ def generate_data(out_file, num_samples, do_print=False):
         # If the modifier ends with "a" and the object starts with a vowel, it must be "an"
         if post_act_mod == "a" and obj_token[0] in vowels:
             post_act_mod = "an"
-        # If the modifier contains "some", then pluralize it 
-        # Could maybe use https://pypi.org/project/inflect/ ?
 
         sent = None
 
@@ -124,6 +123,6 @@ if __name__=="__main__":
 
     # Generate data
     training_file = os.path.join(cur_dir, training_file_name)
-    generate_data(training_file,num_training_samples,do_print=True)
+    generate_data(training_file,num_training_samples, do_print=True)
     test_file = os.path.join(cur_dir, test_file_name)
-    generate_data(test_file,num_test_samples,do_print=True)
+    generate_data(test_file,num_test_samples, do_print=True)
