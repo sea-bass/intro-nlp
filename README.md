@@ -26,7 +26,7 @@ pip install transformers
 
 ## Examples
 
-For more background, watch the [YouTube presentation](TBD) or read through the [presentation slides](TBD) in this repository.
+For more background, watch the [YouTube presentation](TBD) or read through the [presentation slides](intro-nlp-slides.pdf) in this repository.
 
 ### Rule-Based Processing
 Basic text processing and sentence parsing using a grammar.
