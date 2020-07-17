@@ -3,7 +3,11 @@ Educational resources to get started with Natural Language Processing in Python.
 
 By Sebastian Castro, 2020
 
+For more background, watch the [YouTube presentation](https://youtu.be/r1TLHEIz_FU) or read through the [presentation slides](intro-nlp-slides.pdf) in this repository.
 
+Blog posts coming soon!
+
+---
 
 ## Getting Started
 
@@ -25,8 +29,6 @@ pip install transformers
 
 
 ## Examples
-
-For more background, watch the [YouTube presentation](TBD) or read through the [presentation slides](intro-nlp-slides.pdf) in this repository.
 
 ### Rule-Based Processing
 Basic text processing and sentence parsing using a grammar.
