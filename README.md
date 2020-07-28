@@ -3,9 +3,11 @@ Educational resources to get started with Natural Language Processing in Python.
 
 By Sebastian Castro, 2020
 
-For more background, watch the [YouTube presentation](https://youtu.be/r1TLHEIz_FU) or read through the [presentation slides](intro-nlp-slides.pdf) in this repository.
+For more background, check out the following resources:
 
-Blog posts coming soon!
+* [YouTube presentation](https://youtu.be/r1TLHEIz_FU)
+* [Blog post](https://roboticseabass.wordpress.com/2020/07/28/introduction-to-natural-language-processing/)
+* [Presentation slides](intro-nlp-slides.pdf)
 
 ---
 
